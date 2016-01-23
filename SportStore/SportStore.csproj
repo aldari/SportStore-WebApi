@@ -160,6 +160,7 @@
     <Content Include="Scripts\jquery-2.2.0.min.js" />
     <Content Include="Scripts\knockout-3.4.0.debug.js" />
     <Content Include="Scripts\knockout-3.4.0.js" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
   </ItemGroup>
