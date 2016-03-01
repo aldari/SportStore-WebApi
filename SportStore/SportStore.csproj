@@ -165,9 +165,7 @@
     <Content Include="Scripts\jquery-2.2.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\IdentityConfig.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\PrepController.cs">
@@ -185,7 +183,13 @@
     <Compile Include="Infrastructure\Identity\StoreRole.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Infrastructure\Identity\StoreRoleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Infrastructure\Identity\StoreUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Infrastructure\Identity\StoreUserManager.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Models\ProductDbInitializer.cs" />
