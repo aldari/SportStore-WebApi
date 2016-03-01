@@ -14,10 +14,10 @@ namespace SportStore
             app.CreatePerOwinContext<StoreIdentityDbContext>(
             StoreIdentityDbContext.Create); app.CreatePerOwinContext<StoreUserManager>(StoreUserManager.Create);
             app.CreatePerOwinContext<StoreRoleManager>(StoreRoleManager.Create);
-            app.UseCookieAuthentication(new CookieAuthenticationOptions
-            {
-                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie
-            });
+            //app.UseCookieAuthentication(new CookieAuthenticationOptions
+//            {
+//                AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie
+//            });
         }
     }
 }
